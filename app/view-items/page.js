@@ -1,5 +1,7 @@
 import { sql } from '@vercel/postgres';
 
+export const dynamic = 'force-dynamic';
+
 const thStyle = { textAlign: 'left', borderBottom: '2px solid #333', padding: 8 };
 const tdStyle = { borderBottom: '1px solid #ddd', padding: 8 };
 
